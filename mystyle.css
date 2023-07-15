@@ -18,7 +18,6 @@
 .content{
     background-color: #EBD8D3;
     padding: 150px 90px 90px 90px;
-    text-align: center;
 }
 
 
@@ -81,7 +80,10 @@
 @media screen and (min-width: 992px){
     .first-part{
         margin-right: 100px;
-        
+    }
+
+    .content{
+        text-align: center;
     }
 }
 
