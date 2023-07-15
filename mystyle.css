@@ -85,8 +85,7 @@
     }
 }
 
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 991px) {
 
     .title{
         font-size: 40px;
@@ -99,6 +98,27 @@
     }
 
     .content{
-        padding: 125px 40px;
+        padding: 75px 10px;
+    }
+    
+    .presentation-text{
+        text-align: left;
+    }
+
+    .first-part{
+        margin-bottom: 50px;
+    }
+
+    .text-box{
+        text-align: left;
+        
+    }
+
+    .carousel-container{
+        width: 100%;
+    }
+
+    .second-part-container{
+        padding: 0;
     }
 }
